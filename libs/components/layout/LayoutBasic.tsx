@@ -2,7 +2,7 @@ import Head from "next/head";
 import { Stack } from "@mui/material";
 import Top from "../Top";
 import Footer from "../Footer";
-import useDeviceDetect from "../hooks/useDeviceDetect";
+import useDeviceDetect from "../../hooks/useDeviceDetect";
 
 const withLayoutBasic = (Component: any) => {
   return (props: any) => {

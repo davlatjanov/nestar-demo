@@ -5,7 +5,7 @@ import KeyboardArrowDownRoundedIcon from "@mui/icons-material/KeyboardArrowDownR
 import { useState } from "react";
 import Filter from "../../libs/components/property/Filter";
 import PropertyCard from "../../libs/components/property/PropertyCard";
-import useDeviceDetect from "@/libs/components/hooks/useDeviceDetect";
+import useDeviceDetect from "@/libs/hooks/useDeviceDetect";
 
 const PropertyList: NextPage = () => {
   const [properties, setProperties] = useState<number[]>([1, 2, 3, 4, 5, 6]);

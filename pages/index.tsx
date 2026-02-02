@@ -9,7 +9,7 @@ import TopAgents from "../libs/components/homepage/TopAgents";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import useDeviceDetect from "@/libs/components/hooks/useDeviceDetect";
+import useDeviceDetect from "@/libs/hooks/useDeviceDetect";
 
 const Home: NextPage = () => {
   const device = useDeviceDetect();

@@ -4,7 +4,7 @@ import { Stack } from "@mui/material";
 import Headerfilter from "../homepage/HeaderFilter";
 import Top from "../Top";
 import Footer from "../Footer";
-import useDeviceDetect from "../hooks/useDeviceDetect";
+import useDeviceDetect from "../../hooks/useDeviceDetect";
 
 const withLayoutMain = (Component: any) => {
   return (props: any) => {

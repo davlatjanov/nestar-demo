@@ -1,7 +1,7 @@
 import { NextPage } from "next";
 import withLayoutBasic from "../../libs/components/layout/LayoutBasic";
 import { Stack } from "@mui/material";
-import useDeviceDetect from "@/libs/components/hooks/useDeviceDetect";
+import useDeviceDetect from "@/libs/hooks/useDeviceDetect";
 
 const AgentList: NextPage = () => {
   const device = useDeviceDetect();

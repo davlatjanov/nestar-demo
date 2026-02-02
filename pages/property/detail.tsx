@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import { Container, Stack } from "@mui/material";
 import withLayoutBasic from "../../libs/components/layout/LayoutBasic";
-import useDeviceDetect from "@/libs/components/hooks/useDeviceDetect";
+import useDeviceDetect from "@/libs/hooks/useDeviceDetect";
 
 const PropertyDetail = () => {
   const device = useDeviceDetect();
